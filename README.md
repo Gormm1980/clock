@@ -17,3 +17,6 @@ You may also see any lint errors in the console.
 
 #### install Widget weather
 npm i react-open-weather
+
+## install Calendar
+`npm i react-calendar`
