@@ -15,10 +15,10 @@ const WidgetWeather = () => {
             isLoading={isLoading}
             errorMessage={errorMessage}
             data={data}
-            lang="en"
             locationLabel="Madrid"
             unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
-            showForecast
+            showForecast={false}
+
         />
     );
 };
