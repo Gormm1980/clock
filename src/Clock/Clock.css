@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Champagne';
+    src: url('Fonts/C&L_I.ttf') format('truetype');
+}
+.Clock {
+    font-family: 'Champagne';
+    font-stretch: 80%;
+    font-style: italic;
+    text-shadow: 0 0 10px #fff;
+    background-color: lightgray;
+}
+.ClockMsg {
+    font-size: 30px;
+    color: #5f1231;
+    text-align: left;
+    padding-left: 20px;
+}
+.ClockHour {
+    font-size: 70px;
+    color: #5f1231;
+    float: left;
+    padding-left: 20px;
+}
+.ClockTemp {
+    
+}
