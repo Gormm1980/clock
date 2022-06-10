@@ -12,10 +12,8 @@ function Clock() {
     let dia = week[date.getDay()];
     let day = date.getDate();
     let month = mes[date.getMonth()];
-    let year = date.getFullYear();
     let hours = (date.getHours() < 10 ? '0' : '') + date.getHours();
     let minutes = (date.getMinutes() < 10 ? '0' : '') + date.getMinutes();
-    let seconds = (date.getSeconds() < 10 ? '0' : '') + date.getSeconds();
 
     const time = () => {
         for (let i = 0; i < 1; i++) {
@@ -24,7 +22,7 @@ function Clock() {
             }, 1000);
         }
 
-        return `${hours}:${minutes}:${seconds}`;
+        return `${hours}:${minutes}`;
     }
 
     return (
@@ -34,7 +32,7 @@ function Clock() {
                 <p>Bienvenido a tu oficina ...</p>
             </div>
             <div className="ClockHour">
-                {hours}:{minutes}
+                {time()}
             </div>
             <div className="ClockDay">
                 <div> {dia} </div>
