@@ -36,16 +36,11 @@ function Clock() {
             <div className="ClockHour">
                 {hours}:{minutes}
             </div>
-            <div className="ClockTemp">
-                <div></div>
-                <div></div>
+            <div className="ClockDay">
+                <div> {dia} </div>
+                <div>{day}  de  {month}</div>
             </div>
-            <h1>Clock</h1>
-           {dia} {day}  de  {month}
-            <br />
-            {time()}
-
-
+          
         </div>
     );
 }

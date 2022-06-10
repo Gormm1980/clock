@@ -2,25 +2,48 @@
     font-family: 'Champagne';
     src: url('Fonts/C&L_I.ttf') format('truetype');
 }
+
 .Clock {
     font-family: 'Champagne';
     font-stretch: 80%;
     font-style: italic;
     text-shadow: 0 0 10px #fff;
-    background-color: lightgray;
+    padding-left: 85px;
+    padding-top: 85px;
 }
+
 .ClockMsg {
-    font-size: 30px;
-    color: #5f1231;
+    font-size: 34px;
+    color: #5F1231;
     text-align: left;
-    padding-left: 20px;
+    padding: 0px 0px 115px 0px;
+    ;
 }
+
+.ClockMsg p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+}
+
 .ClockHour {
-    font-size: 70px;
-    color: #5f1231;
+    font-size: 60px;
+    color: #5F1231;
     float: left;
-    padding-left: 20px;
+    padding-left: 0px;
 }
-.ClockTemp {
-    
+
+.ClockDay {
+    font-size: 18px;
+    font-weight: 900;
+    text-shadow: 0 0 10px #fff;
+    color: #5F1231;
+    float: left;
+    padding: 100px 0px;
+    text-align: center;
+    position: absolute;
+    width: 200px;
 }
