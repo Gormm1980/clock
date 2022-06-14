@@ -4,6 +4,7 @@
     left: 250px;
     width: auto !important;
     height: auto !important;
+    background:transparent!important;
 }
 
 .rw-container-main .rw-container-left {
