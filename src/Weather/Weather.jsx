@@ -9,6 +9,7 @@ const WidgetWeather = () => {
         lon: '-3.6297047',
         lang: 'es',
         unit: 'metric', // values are (metric, standard, imperial)
+        isLoading: true, // default is false
     });
     return (
         <ReactWeather
