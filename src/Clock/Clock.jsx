@@ -6,7 +6,7 @@ import './Clock.css';
 function Clock() {
 
     const [date, setDate] = useState(new Date());
-    const week = ['Domingo', 'Lunes','Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado' ];
+    const week = ['Domingo', 'Lunes','Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado' ];
     const mes = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
     let dia = week[date.getDay()];
