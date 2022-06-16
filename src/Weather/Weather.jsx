@@ -10,8 +10,13 @@ const WidgetWeather = () => {
         lang: 'es',
         unit: 'metric', // values are (metric, standard, imperial)
         getWeather: true, // get weather data from OpenWeatherMap API
-        reload: 60, // reload weather data every 60 seconds
+        
     });
+   
+    const reload = () => {
+        window.location.reload();
+    }
+
     return (
         <ReactWeather
             isLoading={isLoading}
@@ -21,7 +26,8 @@ const WidgetWeather = () => {
             unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
             showForecast={false}
             getWeather={true}
-            reload={60}
+            onload="initialize(); setTimeout({reload()}, 900000);"
+           
 
         />
     );
