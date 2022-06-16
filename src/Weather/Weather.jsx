@@ -10,7 +10,7 @@ const WidgetWeather = () => {
         lang: 'es',
         unit: 'metric', // values are (metric, standard, imperial)
         getWeather: true, // get weather data from OpenWeatherMap API
-        
+
     });
    
     const reload = () => {
@@ -28,6 +28,7 @@ const WidgetWeather = () => {
             getWeather={true}
             onload="initialize(); setTimeout({reload()}, 900000);"
            
+
 
         />
     );
