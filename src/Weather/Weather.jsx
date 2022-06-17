@@ -16,7 +16,7 @@ const WidgetWeather = () => {
     const reload = () => {
         setTimeout(() => {
             window.location.reload();
-        }, 9000000);
+        }, 900000);
     }
 
     return (
