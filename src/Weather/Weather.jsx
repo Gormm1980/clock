@@ -29,9 +29,6 @@ const WidgetWeather = () => {
             showForecast={false}
             getWeather={true}
             onload={reload}
-           
-
-
         />
     );
 };
