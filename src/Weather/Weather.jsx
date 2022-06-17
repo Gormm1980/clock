@@ -13,11 +13,13 @@ const WidgetWeather = () => {
 
     });
    
-    const reload = () => {
-        setTimeout(() => {
-            window.location.reload();
-        }, 9000000);
+    function reloadPage() {
+        window.location.reload();
     }
+      
+    let intervalPage = setInterval(reloadPage, 900000);
+       
+    
 
     return (
         <ReactWeather
@@ -28,11 +30,9 @@ const WidgetWeather = () => {
             unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
             showForecast={false}
             getWeather={true}
-            onload={reload}
+            reload={intervalPage}
            
-
-
-        />
+       />
     );
 };
 
