@@ -14,7 +14,9 @@ const WidgetWeather = () => {
     });
    
     const reload = () => {
-        window.location.reload();
+        setTimeout(() => {
+            window.location.reload();
+        }, 9000000);
     }
 
     return (
@@ -26,7 +28,7 @@ const WidgetWeather = () => {
             unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
             showForecast={false}
             getWeather={true}
-            onload="initialize(); setTimeout({reload()}, 900000);"
+            onload={reload}
            
 
 
