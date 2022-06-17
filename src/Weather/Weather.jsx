@@ -13,6 +13,7 @@ const WidgetWeather = () => {
 
     });
    
+
     function reloadPage() {
         window.location.reload();
     }
@@ -33,6 +34,7 @@ const WidgetWeather = () => {
             reload={intervalPage}
            
        />
+
     );
 };
 
