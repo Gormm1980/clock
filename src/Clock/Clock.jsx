@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import './Clock.css';
 
-
-
 function Clock() {
 
     const [date, setDate] = useState(new Date());
@@ -28,15 +26,11 @@ function Clock() {
     return (
 
         <div className="Clock">
-            <div className="ClockMsg">
-                <p>Bienvenido a tu oficina ...</p>
-            </div>
             <div className="ClockHour">
                 {time()}
             </div>
             <div className="ClockDay">
-                <div> {dia} </div>
-                <div>{day}  de  {month}</div>
+                <div> {dia}, {day}  de  {month}</div>
             </div>
           
         </div>

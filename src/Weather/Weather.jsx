@@ -28,7 +28,7 @@ const WidgetWeather = () => {
             errorMessage={errorMessage}
             data={data}
             locationLabel="Madrid"
-            unitsLabels={{ temperature: 'C', windSpeed: 'Km/h' }}
+            unitsLabels={{ temperature: 'c', windSpeed: 'Km/h' }}
             showForecast={false}
             getWeather={true}
             reload={intervalPage}

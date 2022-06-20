@@ -1,10 +1,17 @@
 .rw-container-main {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200; 
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
     position: absolute;
-    top: 257px;
-    left: 300px;
+    top: 250px;
+    left: 60px;
     width: auto !important;
-    height: auto !important;
-    background:transparent!important;
+    /*height: auto !important;
+    background:transparent!important;*/ 
+    height: 110px !important;
+    padding: 80px 0 0 30px;
+    border-left: 2px solid #fff;
 }
 
 .rw-container-main .rw-container-left {
@@ -33,13 +40,7 @@
 }
 
 .rw-container-main .rw-container-left .rw-today .rw-today-current {
-    font-family: 'Champagne';
-    font-stretch: 80%;
-    font-style: italic;
-    font-size: 30px;
-    font-weight: 700;
-    color: #5F1231;
-    text-shadow: 0 0 10px #fff;
+    font-size: 45px;
 }
 
 .rw-container-main .rw-container-right {
@@ -49,7 +50,7 @@
 }
 
 .rw-container-main .rw-container-right svg path {
-    fill: #5F1231;
+    fill: #fff;
     filter: drop-shadow(0px 0px 10px rgb(255 255 255 / 0.8));
 }
 
